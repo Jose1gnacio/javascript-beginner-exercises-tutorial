@@ -4,6 +4,4 @@ function isOdd(myNumber)
 }
 
 // Your code below:
-isOdd(45345)
-
-console.log(isOdd(45345))
+isOdd()
