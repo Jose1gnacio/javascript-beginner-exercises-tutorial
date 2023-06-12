@@ -1,5 +1,16 @@
-function fizzBuzz() {  
+function fizzBuzz(numb) {  
 	// Your code here
-}
+	for (let i = 1; i <= numb; i++) {
+		if (i % 3 == 0 && i % 5 == 0) {
+			console.log("FizzBuzz");
+		} else if (i % 5 == 0){
+			console.log("Buzz");
+		} else if (i % 3 == 0){
+			console.log("Fizz");
+		} else {
+			console.log(i);
+		};	
+	};
+};
 
-fizzBuzz();
+fizzBuzz(100);
